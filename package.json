@@ -12,8 +12,7 @@
     "bootstrap": "^4.0.0",
     "chart.js": "^2.7.1",
     "jquery": "^3.2.1",
-    "popper.js": "^1.12.9",
-    "simple-line-icons": "^2.4.1"
+    "popper.js": "^1.12.9"
   },
   "name": "carbon-admin",
   "description": "Carbon is a free admin template based on Bootstrap 4",
