@@ -51,17 +51,17 @@ $theme-colors: (
         "dark": $black
 );
 
-$yiq-contrasted-threshold: 200;
+$yiq-contrasted-threshold: 200 !default;
 
 /**
  * Options
  */
-$enable-rounded: false;
+$enable-rounded: false !default;
 
 /**
  * Body
  */
-$body-bg: #efefef;
+$body-bg: #efefef !default;
 $body-color: $black;
 
 /**
@@ -78,64 +78,64 @@ $table-dark-bg: $black;
  * Links
  */
 $link-color: $gray-700;
-$link-hover-decoration: none;
+$link-hover-decoration: none !default;
 
 /**
  * Fonts
  */
-$font-size-base: 0.875rem;
-$font-weight-bold: 500;
-$headings-margin-bottom: 1rem;
+$font-size-base: 0.875rem !default;
+$font-weight-bold: 500 !default;
+$headings-margin-bottom: 1rem !default;
 
 /**
  * Header
  */
-$header-height: 60px;
-$header-bg: #fff;
+$header-height: 60px !default;
+$header-bg: #fff !default;
 
 /**
  * Sidebar
  */
-$sidebar-width: 240px;
-$sidebar-bg: #272727;
+$sidebar-width: 240px !default;
+$sidebar-bg: #272727 !default;
 
-$sidebar-nav-link-padding-x: 24px;
-$sidebar-nav-link-padding-y: 16px;
-$sidebar-nav-link-color: lighten($black, 35%);
-$sidebar-nav-link-hover-bg-color: lighten($blue, 15%);
-$sidebar-nav-link-hover-color: lighten($black, 60%);
-$sidebar-nav-icon-color: lighten($black, 50%);
-$sidebar-nav-icon-hover-color: #fff;
+$sidebar-nav-link-padding-x: 24px !default;
+$sidebar-nav-link-padding-y: 16px !default;
+$sidebar-nav-link-color: lighten($black, 35%) !default;
+$sidebar-nav-link-hover-bg-color: lighten($blue, 15%) !default;
+$sidebar-nav-link-hover-color: lighten($black, 60%) !default;
+$sidebar-nav-icon-color: lighten($black, 50%) !default;
+$sidebar-nav-icon-hover-color: #fff !default;
 $sidebar-nav-icon-active-color: $blue;
-$sidebar-nav-link-active-color: #fff;
+$sidebar-nav-link-active-color: #fff !default;
 
-$sidebar-nav-title-padding-x: 1rem;
-$sidebar-nav-title-padding-y: 0.8rem;
-$sidebar-nav-title-color: lighten($black, 50%);
+$sidebar-nav-title-padding-x: 1rem !default;
+$sidebar-nav-title-padding-y: 0.8rem !default;
+$sidebar-nav-title-color: lighten($black, 50%) !default;
 
 /**
  * Content
  */
-$content-padding-x: 32px;
-$content-padding-y: 32px;
+$content-padding-x: 32px !default;
+$content-padding-y: 32px !default;
 
 /**
  * Cards
  */
-$card-border-radius: 0;
-$card-spacer-x: 1rem;
-$card-spacer-y: 1rem;
-$card-cap-bg: #fff;
-$card-border-color: none;
+$card-border-radius: 0 !default;
+$card-spacer-x: 1rem !default;
+$card-spacer-y: 1rem !default;
+$card-cap-bg: #fff !default;
+$card-border-color: none !default;
 
 /**
  * Forms
  */
-$input-btn-focus-box-shadow: none;
+$input-btn-focus-box-shadow: none !default;
 
 /**
  * Dropdowns
  */
-$dropdown-item-padding-x: 1rem;
-$dropdown-item-padding-y: 0.6rem;
+$dropdown-item-padding-x: 1rem !default;
+$dropdown-item-padding-y: 0.6rem !default;
 $dropdown-border-color: $border-color;
